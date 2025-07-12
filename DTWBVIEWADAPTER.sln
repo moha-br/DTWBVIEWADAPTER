@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTWBVIEWADAPTER", "DTWBVIEWADAPTER\DTWBVIEWADAPTER.csproj", "{C32E4985-F382-4D3B-96A4-C9415A70C999}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Test", "Test\Test.vbproj", "{B3336F27-9A38-4E82-8D52-B79203DBC3B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C32E4985-F382-4D3B-96A4-C9415A70C999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32E4985-F382-4D3B-96A4-C9415A70C999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32E4985-F382-4D3B-96A4-C9415A70C999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32E4985-F382-4D3B-96A4-C9415A70C999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3336F27-9A38-4E82-8D52-B79203DBC3B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3336F27-9A38-4E82-8D52-B79203DBC3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3336F27-9A38-4E82-8D52-B79203DBC3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3336F27-9A38-4E82-8D52-B79203DBC3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED0BF5FC-A407-4FAF-B47B-484C3E2B26FB}
+	EndGlobalSection
+EndGlobal
