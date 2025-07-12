@@ -1,12 +1,142 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C32E4985-F382-4D3B-96A4-C9415A70C999}|DTWBVIEWADAPTER\\DTWBVIEWADAPTER.csproj|C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\dtwbviewadapter\\cls_datatabletohtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C32E4985-F382-4D3B-96A4-C9415A70C999}|DTWBVIEWADAPTER\\DTWBVIEWADAPTER.csproj|solutionrelative:dtwbviewadapter\\cls_datatabletohtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C32E4985-F382-4D3B-96A4-C9415A70C999}|DTWBVIEWADAPTER\\DTWBVIEWADAPTER.csproj|C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\dtwbviewadapter\\templates\\html\\basetemplate.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C32E4985-F382-4D3B-96A4-C9415A70C999}|DTWBVIEWADAPTER\\DTWBVIEWADAPTER.csproj|solutionrelative:dtwbviewadapter\\templates\\html\\basetemplate.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C32E4985-F382-4D3B-96A4-C9415A70C999}|DTWBVIEWADAPTER\\DTWBVIEWADAPTER.csproj|C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\dtwbviewadapter\\templates\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C32E4985-F382-4D3B-96A4-C9415A70C999}|DTWBVIEWADAPTER\\DTWBVIEWADAPTER.csproj|solutionrelative:dtwbviewadapter\\templates\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C32E4985-F382-4D3B-96A4-C9415A70C999}|DTWBVIEWADAPTER\\DTWBVIEWADAPTER.csproj|C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\dtwbviewadapter\\templates\\html\\cardtemplate.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C32E4985-F382-4D3B-96A4-C9415A70C999}|DTWBVIEWADAPTER\\DTWBVIEWADAPTER.csproj|solutionrelative:dtwbviewadapter\\templates\\html\\cardtemplate.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C32E4985-F382-4D3B-96A4-C9415A70C999}|DTWBVIEWADAPTER\\DTWBVIEWADAPTER.csproj|C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\dtwbviewadapter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C32E4985-F382-4D3B-96A4-C9415A70C999}|DTWBVIEWADAPTER\\DTWBVIEWADAPTER.csproj|solutionrelative:dtwbviewadapter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C32E4985-F382-4D3B-96A4-C9415A70C999}|DTWBVIEWADAPTER\\DTWBVIEWADAPTER.csproj|c:\\users\\vm1\\source\\repos\\dtwbviewadapter\\dtwbviewadapter\\sqlitehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C32E4985-F382-4D3B-96A4-C9415A70C999}|DTWBVIEWADAPTER\\DTWBVIEWADAPTER.csproj|solutionrelative:dtwbviewadapter\\sqlitehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C32E4985-F382-4D3B-96A4-C9415A70C999}|DTWBVIEWADAPTER\\DTWBVIEWADAPTER.csproj|C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\dtwbviewadapter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C32E4985-F382-4D3B-96A4-C9415A70C999}|DTWBVIEWADAPTER\\DTWBVIEWADAPTER.csproj|solutionrelative:dtwbviewadapter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SQLiteHelper.cs",
+              "DocumentMoniker": "C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\DTWBVIEWADAPTER\\SQLiteHelper.cs",
+              "RelativeDocumentMoniker": "DTWBVIEWADAPTER\\SQLiteHelper.cs",
+              "ToolTip": "C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\DTWBVIEWADAPTER\\SQLiteHelper.cs",
+              "RelativeToolTip": "DTWBVIEWADAPTER\\SQLiteHelper.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAEwBQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T22:10:57.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\DTWBVIEWADAPTER\\Templates\\Css\\styles.css",
+              "RelativeDocumentMoniker": "DTWBVIEWADAPTER\\Templates\\Css\\styles.css",
+              "ToolTip": "C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\DTWBVIEWADAPTER\\Templates\\Css\\styles.css",
+              "RelativeToolTip": "DTWBVIEWADAPTER\\Templates\\Css\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-12T21:48:27.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\DTWBVIEWADAPTER\\Form1.cs",
+              "RelativeDocumentMoniker": "DTWBVIEWADAPTER\\Form1.cs",
+              "ToolTip": "C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\DTWBVIEWADAPTER\\Form1.cs",
+              "RelativeToolTip": "DTWBVIEWADAPTER\\Form1.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowC8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T21:47:16.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CLS_DatatableToHTML.cs",
+              "DocumentMoniker": "C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\DTWBVIEWADAPTER\\CLS_DatatableToHTML.cs",
+              "RelativeDocumentMoniker": "DTWBVIEWADAPTER\\CLS_DatatableToHTML.cs",
+              "ToolTip": "C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\DTWBVIEWADAPTER\\CLS_DatatableToHTML.cs",
+              "RelativeToolTip": "DTWBVIEWADAPTER\\CLS_DatatableToHTML.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T21:46:03.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CardTemplate.html",
+              "DocumentMoniker": "C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\DTWBVIEWADAPTER\\Templates\\Html\\CardTemplate.html",
+              "RelativeDocumentMoniker": "DTWBVIEWADAPTER\\Templates\\Html\\CardTemplate.html",
+              "ToolTip": "C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\DTWBVIEWADAPTER\\Templates\\Html\\CardTemplate.html",
+              "RelativeToolTip": "DTWBVIEWADAPTER\\Templates\\Html\\CardTemplate.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-12T21:45:02.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseTemplate.html",
+              "DocumentMoniker": "C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\DTWBVIEWADAPTER\\Templates\\Html\\BaseTemplate.html",
+              "RelativeDocumentMoniker": "DTWBVIEWADAPTER\\Templates\\Html\\BaseTemplate.html",
+              "ToolTip": "C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\DTWBVIEWADAPTER\\Templates\\Html\\BaseTemplate.html",
+              "RelativeToolTip": "DTWBVIEWADAPTER\\Templates\\Html\\BaseTemplate.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-12T15:22:15.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\DTWBVIEWADAPTER\\Form1.cs",
+              "RelativeDocumentMoniker": "DTWBVIEWADAPTER\\Form1.cs",
+              "ToolTip": "C:\\Users\\vm1\\source\\repos\\DTWBVIEWADAPTER\\DTWBVIEWADAPTER\\Form1.cs [Design]",
+              "RelativeToolTip": "DTWBVIEWADAPTER\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:21:06.799Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

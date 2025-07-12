@@ -23,14 +23,30 @@ namespace DTWBVIEWADAPTER
 
         private async void Form1_Load(object sender, EventArgs e)
         {
-            data = new DataTable();
-            data.Columns.Add("ID");
-            data.Columns.Add("Name");
-            data.Columns.Add("Email");
+            //data = new DataTable();
+            //data.Columns.Add("Enc");
+            //data.Columns.Add("ProdIDs");
+            //data.Columns.Add("ANuser");
+            //data.Columns.Add("3Duser");
+            //data.Columns.Add("2Duser");
+            //data.Columns.Add("IMuser");
+            //data.Columns.Add("VLuser");
+            //data.Columns.Add("AN_desc");
+            //data.Columns.Add("Ref_Client");
+            //data.Columns.Add("Ref_Suplyer");
+            //data.Columns.Add("DV_Branch");
+            //data.Columns.Add("Sector");
+            //data.Columns.Add("ArtCODE");
 
-            data.Rows.Add("1", "Alice", "alice@example.com");
-            data.Rows.Add("2", "Bob", "bob@example.com");
+            //data.Rows.Add("1", "Alice", "alice@example.com");
+            //data.Rows.Add("2", "Bob", "bob@example.com");
 
+            //dataGridView1.DataSource = data;
+            string dbPath = @"C:\Users\vm1\Desktop\dt_sql.db";
+            string query = "SELECT * FROM data_table_EncsTask";
+
+            var dbHelper = new SQLiteHelper(dbPath);
+            data = dbHelper.ExecuteSelectQuery(query);
             dataGridView1.DataSource = data;
             string outputPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "output.html");
 
@@ -62,21 +78,6 @@ namespace DTWBVIEWADAPTER
         }
 
 
-        private void btnExport_Click(object sender, EventArgs e)
-        {
-            SaveFileDialog sfd = new SaveFileDialog
-            {
-                Filter = "HTML files (*.html)|*.html",
-                FileName = "cards.html"
-            };
-
-            if (sfd.ShowDialog() == DialogResult.OK)
-            {
-                string html = CLS_DatatableToHTML.GenerateHTMLFromDataTable(data, "Exported Cards");
-                File.WriteAllText(sfd.FileName, html);
-                MessageBox.Show("HTML exported successfully!", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-        }
 
        
     }
