@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using System.Text;
@@ -24,12 +25,13 @@ namespace DTWBVIEWADAPTER
 
                 string title = "";
                 string avatar = "U"; // Default fallback
+                List<string> colsList = new List<string>();
 
                 foreach (DataColumn col in table.Columns)
                 {
                     string key = col.ColumnName;
                     string value = row[col]?.ToString() ?? "";
-
+                    colsList.Add("ds_" + key.ToLower() + "$" + value);
                     // Try to set title from "Article Code", fallback to first column
                     if (string.IsNullOrEmpty(title) && key.ToLower().Contains("article"))
                     {
@@ -52,6 +54,23 @@ namespace DTWBVIEWADAPTER
                     .Replace("{{FIELDS}}", fields.ToString())
                     .Replace("{{TITLE}}", System.Net.WebUtility.HtmlEncode(title))
                     .Replace("{{AVATAR}}", avatar);
+
+                foreach (string col in colsList)
+                {
+                    currentCard = currentCard.Replace("{{" + col.Split('$')[0] + "}}", col.Split('$')[1]);
+
+                }
+                //foreach (string col in colsList)
+                //{
+                //    string[] parts = col.Split('$');
+                //    if (parts.Length == 2)
+                //    {
+                //        string placeholder = $"{{{{{parts[0]}}}}}"; // example: "{{ds_id}}"
+                //        string value = System.Net.WebUtility.HtmlEncode(parts[1]);
+                //        currentCard = currentCard.Replace(placeholder, value);
+                //    }
+                //}
+
 
                 allCards.AppendLine(currentCard);
             }

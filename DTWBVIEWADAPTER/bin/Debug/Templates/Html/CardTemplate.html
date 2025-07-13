@@ -1,8 +1,15 @@
-<div class="id-card">
+<div class="id-card selectable-card"
+     data-id="{{ds_id}}"
+     data-enc="{{ds_enc}}"
+     data-linen="{{ds_linen}}"
+     data-prodids="{{ds_prodids}}"
+     data-sector="{{ds_sector}}">
+
     <div class="d-flex align-items-center mb-3">
         <div class="avatar-circle">{{AVATAR}}</div>
         <h5 class="card-title">{{TITLE}}</h5>
     </div>
+
     <div class="info-grid">
         {{FIELDS}}
     </div>
