@@ -22,18 +22,42 @@ namespace DTWBVIEWADAPTER
                 string currentCard = cardTemplate;
                 StringBuilder fields = new StringBuilder();
 
+                string title = "";
+                string avatar = "U"; // Default fallback
+
                 foreach (DataColumn col in table.Columns)
                 {
                     string key = col.ColumnName;
                     string value = row[col]?.ToString() ?? "";
-                    fields.AppendLine($"<p><strong>{key}:</strong> {System.Net.WebUtility.HtmlEncode(value)}</p>");
+
+                    // Try to set title from "Article Code", fallback to first column
+                    if (string.IsNullOrEmpty(title) && key.ToLower().Contains("article"))
+                    {
+                        title = value;
+                    }
+
+                    // Add each field to info-grid
+                    fields.AppendLine($"<div><strong>{key}:</strong> {System.Net.WebUtility.HtmlEncode(value)}</div>");
                 }
 
-                currentCard = currentCard.Replace("{{FIELDS}}", fields.ToString());
+                if (string.IsNullOrWhiteSpace(title))
+                {
+                    title = row[0]?.ToString() ?? "Untitled";
+                }
+
+                avatar = string.IsNullOrEmpty(title) ? "?" : title.Substring(0, 1).ToUpper();
+
+                // Replace placeholders
+                currentCard = currentCard
+                    .Replace("{{FIELDS}}", fields.ToString())
+                    .Replace("{{TITLE}}", System.Net.WebUtility.HtmlEncode(title))
+                    .Replace("{{AVATAR}}", avatar);
+
                 allCards.AppendLine(currentCard);
             }
 
-            baseTemplate = baseTemplate.Replace("{{TITLE}}", pageTitle);
+            // Final page HTML
+            baseTemplate = baseTemplate.Replace("{{TITLE}}", System.Net.WebUtility.HtmlEncode(pageTitle));
             baseTemplate = baseTemplate.Replace("{{CARDS}}", allCards.ToString());
 
             return baseTemplate;
